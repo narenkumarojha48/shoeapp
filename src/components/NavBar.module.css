@@ -1,0 +1,18 @@
+.navlink{
+    height: 50px;
+    background-color:black;
+    border-bottom: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+}
+.navlink a{
+    margin:10px;
+    color:white;
+    font-size: 18px;
+    /* padding: 10px; */
+}
+nav a.active{
+    font-weight: bold;
+    color: aqua;
+    font-size: 24px;
+}
