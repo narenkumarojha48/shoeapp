@@ -4,7 +4,7 @@ const ProductList = ({ products, addTocart, removeFromcart }) => {
       {products?.map((product) => (
         <article className="card" key={product.id}>
           <div className="img">
-            <img src={product.image} width={"100px"} height={"100px"} />
+            <img src={product.image} width={"100px"} height={"100px"} alt="Shoe Item Loading"/>
           </div>
           <div>{product.title}</div>
           <div>Price :- ${product.price}</div>

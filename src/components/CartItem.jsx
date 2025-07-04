@@ -21,7 +21,7 @@ const CartItem = ({ item, removeFromcart, updateQuantityCart }) => {
     <>
       <div className="cartitem">
         <div>
-          <img src={item.image} width="50px" height="50px" />
+          <img src={item.image} width="50px" height="50px" alt="Shoe Item Loadin"/>
         </div>
         <div>{item.title}</div>
 
